@@ -1,9 +1,9 @@
 export default function Home() {
   return (
-    <div style={{ padding: '2rem', fontFamily: 'sans-serif' }}>
-      <h1>Welcome to UNCSA Art Hub</h1>
-      <p>This is your new project management site for student films.</p>
-      <p>Visit the <a href="/test">Test Page</a> to see Supabase in action.</p>
-    </div>
+    <main style={{ fontFamily: 'sans-serif', padding: '2rem' }}>
+      <h1>🎬 Welcome to UNCSA Art Hub</h1>
+      <p>This is your centralized hub for managing student film projects.</p>
+      <p>Explore the <a href="/test">Test Page</a> for a live Supabase connection demo.</p>
+    </main>
   );
 }
